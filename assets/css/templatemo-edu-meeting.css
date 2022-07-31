@@ -95,7 +95,7 @@ a {
 }
 
 a:hover {
-	color: #FC3;
+	color: #264484;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -130,12 +130,12 @@ body {
 }
 
 ::selection {
-  background: #f5a425;
+  background: #264484;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f5a425;
+  background: #264484;
   color: #fff;
 }
 
@@ -174,7 +174,7 @@ body {
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
-  background-color: #f5a425;
+  background-color: #264484;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -235,12 +235,12 @@ header
 }
 
 .sub-header .right-icons ul li a:hover {
-  color: #f5a425;
+  color: #264484;
 }
 
 .sub-header .left-content p em {
    font-style: normal;
-   color: #f5a425;
+   color: #264484;
 }
 
 .background-header {
@@ -350,12 +350,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #264484!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #264484!important;
   opacity: 1;
 }
 
@@ -557,7 +557,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #f5a425;
+  color: #264484;
 }
 
 @media (max-width: 1200px) {
