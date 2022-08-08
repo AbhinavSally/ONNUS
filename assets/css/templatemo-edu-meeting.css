@@ -549,7 +549,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 89px;
 }
 
 .header-area .nav {
@@ -1004,7 +1004,8 @@ section.upcoming-meetings .categories .main-button-red a {
   font-size: 18px;
   color: #1f272b;
   font-weight: 600;
-  display: inline-block;
+  /* display: inline-block; */
+
   margin-bottom: 15px;
 }
 
@@ -1429,6 +1430,7 @@ section.contact-us .right-info ul li span {
   font-size: 18px;
   color: #fff;
   font-weight: 700;
+  font-size: 12px !important;
 }
 
 .footer {
