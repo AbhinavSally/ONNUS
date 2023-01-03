@@ -190,6 +190,14 @@ img {
 global styles
 --------------------------------------------- 
 */
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+/* body{
+  position: relative;
+} */
 html,
 body {
   background: #fff;
@@ -267,6 +275,40 @@ body {
   color: #fff;
 }
 
+/* 
+---------------------------------------------
+POPUP
+--------------------------------------------- 
+*/
+
+#overlay {
+  display: none;
+  z-index: 1112;
+  opacity:0.5;
+  background-color:rgb(0, 0, 0);
+  position:absolute; 
+  inset: 0;
+}
+.popup {
+  display:none;
+  width:550px;
+  height:350px;
+  position:absolute;
+  top : 60%;
+  left : 50%;
+  transform : translate(-50%, -50%);
+  /* background:red; */
+  opacity:1;
+  z-index:1113;
+}
+.close{
+position : absolute;
+top : 5%;
+right : 5%;
+font-size: 40px;
+color: #264484;
+cursor : pointer;
+}
 /* 
 ---------------------------------------------
 header
