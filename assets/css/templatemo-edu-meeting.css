@@ -281,7 +281,7 @@ POPUP
 --------------------------------------------- 
 */
 
-@media screen and (max-width:1500px) and (min-width:700px) {
+@media screen and (max-width:2200px) and (min-width:700px) {
   .popup{
     width:740px !important;
   }
